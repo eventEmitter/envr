@@ -1,7 +1,6 @@
-!function() {
+(function() {
+    'use strict';
 
-    var Envr = require('./lib/Envr');
 
-    // export the singleton
-	module.exports = new Envr();
-}();
+	module.exports = require('./lib/envr');
+})();

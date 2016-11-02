@@ -1,27 +1,23 @@
 {
       "name"                        : "envr"
-    , "description"                 : "package description"
-    , "version"                     : "0.1.0"
+    , "description"                 : "inidcates in which environment the process is running"
+    , "version"                     : "1.0.0"
     , "homepage"                    : "https://github.com/eventEmitter/envr"
     , "author"                      : "Michael van der Weg <michael@joinbox.com> (http://joinbox.com/)"
-    , "licence"                     : "MIT"
+    , "license"                     : "MIT"
     , "repository": {
           "url"                     : "https://github.com/eventEmitter/envr.git"
         , "type"                    : "git"
     }
     , "engines": {
-        "node"                      : ">=v0.10.17"
+        "node"                      : ">=v6"
     }
     , "bugs": {
         "url"                       : "https://github.com/eventEmitter/envr/issues"
     }
-    , "dependencies": {
-          "ee-class"                : "1.0.x"
-        , "ee-log"                  : "0.3.x"
-        , "ee-argv"                 : "0.1.x"
-    }
+    , "dependencies": {}
     , "devDependencies": {
-          "mocha"                   : "1.17.x"
+          "mocha"                   : "3.x"
     }
     , "optionalDependencies": {}
     , "keywords"                    : []
