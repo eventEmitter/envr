@@ -4,6 +4,7 @@
 
 
     var assert = require('assert');
+    var path = require('path');
     var envr = require('../')
 
 
@@ -22,12 +23,14 @@
         });
 
         it('should get the correct config', function() {
-            const config = envr.config(__dirname);
+            const config = envr.config(path.join(__dirname, 'data'));
 
             assert(config);
 
             assert.equal(config.a, 1);
             assert.equal(config.b, 2);
             assert.equal(config.c, 3);
+            assert.equal(config.pass, 'so-secure');
+            assert.equal(config.yeah[0].thisIs.suchFun, 69);
         });
     });
