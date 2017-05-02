@@ -1,5 +1,7 @@
 # envr
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/eventEmitter/envr.svg)](https://greenkeeper.io/)
+
 Checks for commandline parameters or environment variables to determine in which environment to run your application.
 
 
