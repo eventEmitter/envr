@@ -1,7 +1,7 @@
 {
     "name": "envr",
     "description": "inidcates in which environment the process is running",
-    "version": "2.1.0",
+    "version": "2.1.1",
     "homepage": "https://github.com/eventEmitter/envr",
     "author": "Michael van der Weg <michael@joinbox.com> (http://joinbox.com/)",
     "license": "MIT",
