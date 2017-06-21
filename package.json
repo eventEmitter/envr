@@ -1,27 +1,27 @@
 {
-      "name"                        : "envr"
-    , "description"                 : "inidcates in which environment the process is running"
-    , "version"                     : "2.0.1"
-    , "homepage"                    : "https://github.com/eventEmitter/envr"
-    , "author"                      : "Michael van der Weg <michael@joinbox.com> (http://joinbox.com/)"
-    , "license"                     : "MIT"
-    , "repository": {
-          "url"                     : "https://github.com/eventEmitter/envr.git"
-        , "type"                    : "git"
-    }
-    , "engines": {
-        "node"                      : ">=v6"
-    }
-    , "bugs": {
-        "url"                       : "https://github.com/eventEmitter/envr/issues"
-    }
-    , "dependencies": {}
-    , "devDependencies": {
-          "mocha"                   : "3.x"
-    }
-    , "optionalDependencies": {}
-    , "keywords"                    : []
-    , "scripts": {
-        "test"                      : "./node_modules/mocha/bin/mocha --reporter spec"
+    "name": "envr",
+    "description": "inidcates in which environment the process is running",
+    "version": "2.1.0",
+    "homepage": "https://github.com/eventEmitter/envr",
+    "author": "Michael van der Weg <michael@joinbox.com> (http://joinbox.com/)",
+    "license": "MIT",
+    "repository": {
+        "url": "https://github.com/eventEmitter/envr.git",
+        "type": "git"
+    },
+    "engines": {
+        "node": ">=v6"
+    },
+    "bugs": {
+        "url": "https://github.com/eventEmitter/envr/issues"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "mocha": "3.x"
+    },
+    "optionalDependencies": {},
+    "keywords": [],
+    "scripts": {
+        "test": "./node_modules/mocha/bin/mocha --reporter spec"
     }
 }
