@@ -1,6 +1,5 @@
-(function() {
-    'use strict';
+
+'use strict';
 
 
-	module.exports = require('./lib/envr');
-})();
+module.exports = require('./lib/envr');
