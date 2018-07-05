@@ -2,6 +2,13 @@
 
     const envr = require('../../');
 
+
+    class EnvrReference {
+        constructor(id) {
+            this.id = id;
+        }
+    }
+
     
     module.exports = {
           a: 100
@@ -11,4 +18,5 @@
                 suchFun: envr.get('fancy')
             }
         }]
+        , fake: new EnvrReference('fake')
     };

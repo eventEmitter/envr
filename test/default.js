@@ -34,5 +34,6 @@ section('ENVR', (section) => {
         assert.equal(config.c, 3);
         assert.equal(config.pass, 'so-secure');
         assert.equal(config.yeah[0].thisIs.suchFun, 69);
+        assert.equal(config.fake, 'real');
     });
 });
